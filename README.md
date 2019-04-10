@@ -19,6 +19,8 @@ A fixed sized, pared down implementation of the [Slot Map data structure](https:
 
 - O(1) emplacement and deletion*. 
 
+- O(1) lookup.
+
 - Data is stored contiguously but unordered and can be iterated as such.
 
 - Access is done via versioned keys to avoid dangling references.
@@ -35,7 +37,11 @@ A deconstruction of the `slot_array` structure, intended for storing random acce
 
 - O(1) emplacement and deletion.
 
+- O(1) lookup.
+
 - Data is not stored contiguously and can not be natively iterated.
+
+- Access is done via versioned keys to avoid dangling references.
 
 - Unlike `slot_array`, no elements are moved or rearranged upon deletion (good for large storage).
 
@@ -48,6 +54,8 @@ A deconstruction of the `slot_array` structure, intended for storing random acce
 An ordered static/fixed vector of sorts. Provides contiguous data in-place.
 
 - O(1) emplacement and deletion *from end*.
+
+- O(1) lookup.
 
 - Data is contiguous and ordered and can be natively iterated.
 
