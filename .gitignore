@@ -1,0 +1,14 @@
+.vs/
+[Bb]uild/
+
+*.csproj
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.bat
+*.exe
+*.sh
