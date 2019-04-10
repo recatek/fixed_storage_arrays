@@ -51,13 +51,15 @@ An unordered static/fixed vector of sorts. Provides contiguous data in-place.
 
 - Data is contiguous and ordered and can be natively iterated.
 
+- Access is done via index. This structure does not use keys or versioning.
+
 - Does not perform or require default element construction for unused slots.
 
 - Elements are automatically cleaned up upon deletion of the structure, similar to an `std::vector`.
 
 ###### `nonstd::versioned_key`
 
-A generic pointer key used for `slot_array` and `keyed_array`. Used to prevent dangling references. Can store a few bytes of "metadata" internally as a result of some spare room from alignment. The purpose of this data is left to the user.
+A generic generational pointer key used for `slot_array` and `keyed_array`. Used to prevent dangling references. Can store a few bytes of "metadata" internally as a result of some spare room from alignment. The purpose of this data is left to the user.
 
 ## Usage
 
