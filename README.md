@@ -45,7 +45,7 @@ A deconstruction of the `slot_array` structure, intended for storing random acce
 
 ###### `nonstd::packed_array<T, N>`
 
-An unordered static/fixed vector of sorts. Provides contiguous data in-place.
+An ordered static/fixed vector of sorts. Provides contiguous data in-place.
 
 - O(1) emplacement and deletion *from end*.
 
