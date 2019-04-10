@@ -71,6 +71,8 @@ TBD.
 
 ## Testing
 
+This repository uses Catch2 for testing. You can learn more about Catch2 [here](https://github.com/catchorg/Catch2).
+
 ### Building Tests on Windows
 This repository is tested with VS2017 and VS2019.
 
