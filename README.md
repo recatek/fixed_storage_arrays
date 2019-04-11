@@ -118,7 +118,7 @@ You can download Premake 5 [here](https://premake.github.io/download.html).
 $ ./premake5 gmake
 ```
 
-##### 4. Make either config or release using your choice of compiler.
+##### 4. Make either debug or release using your choice of compiler.
 ```
 $ make config=release
 ```
