@@ -91,14 +91,12 @@ This repository is tested with VS2017 and VS2019.
 ##### 2. Get Premake 5 and drop the executable in the repository root.
 You can download Premake 5 [here](https://premake.github.io/download.html).
 
-##### 3. Drop the premake5.exe executable in the repository root.
-
-##### 4. Generate solution and project files with Premake.
+##### 3. Generate solution and project files with Premake.
 ```
 premake5 vs2017
 ```
 
-##### 5. Open, build, and test in Visual Studio.
+##### 4. Open, build, and test in Visual Studio.
 ```
 ===============================================================================
 All tests passed (6214 assertions in 28 test cases)
