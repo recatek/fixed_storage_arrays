@@ -1,6 +1,8 @@
 # fixed_storage_arrays
 A set of fixed-sized C++ storage arrays with various features.
 
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/recatek/fixed_storage_arrays.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/recatek/fixed_storage_arrays/alerts/)
+
 ## Purpose
 
 This header-only library provides the following fixed-sized data structures:
